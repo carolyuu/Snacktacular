@@ -20,6 +20,7 @@
 		F16517BD27FAA2FD003C43D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16517BB27FAA2FD003C43D0 /* Main.storyboard */; };
 		F16517BF27FAA301003C43D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16517BE27FAA301003C43D0 /* Assets.xcassets */; };
 		F16517C227FAA301003C43D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16517C027FAA301003C43D0 /* LaunchScreen.storyboard */; };
+		F1CF5ECC27FB605700C8E645 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF5ECB27FB605700C8E645 /* Spots.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F16517BE27FAA301003C43D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16517C127FAA301003C43D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F16517C327FAA301003C43D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CF5ECB27FB605700C8E645 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				F16517B527FAA2FD003C43D0 /* AppDelegate.swift */,
 				F16517B727FAA2FD003C43D0 /* SceneDelegate.swift */,
 				F142D06B27FAEA940052E5CA /* Spot.swift */,
+				F1CF5ECB27FB605700C8E645 /* Spots.swift */,
 				F16517B927FAA2FD003C43D0 /* LoginViewController.swift */,
 				F142D04527FACD2B0052E5CA /* SpotListViewController.swift */,
 				F142D06727FAD5840052E5CA /* SpotTableViewCell.swift */,
@@ -247,6 +250,7 @@
 				F16517BA27FAA2FD003C43D0 /* LoginViewController.swift in Sources */,
 				F16517B627FAA2FD003C43D0 /* AppDelegate.swift in Sources */,
 				F142D06A27FAD9890052E5CA /* SpotDetailViewController.swift in Sources */,
+				F1CF5ECC27FB605700C8E645 /* Spots.swift in Sources */,
 				F142D06827FAD5840052E5CA /* SpotTableViewCell.swift in Sources */,
 				F142D06C27FAEA940052E5CA /* Spot.swift in Sources */,
 				F16517B827FAA2FD003C43D0 /* SceneDelegate.swift in Sources */,
