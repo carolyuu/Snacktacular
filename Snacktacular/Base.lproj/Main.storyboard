@@ -287,6 +287,11 @@
                                 <action selector="cancelButtonPressed:" destination="0Qd-hO-53b" id="eLF-oT-BCq"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="KRJ-Hh-316">
+                            <connections>
+                                <action selector="saveButtonPressed:" destination="0Qd-hO-53b" id="9c7-5Y-JID"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>

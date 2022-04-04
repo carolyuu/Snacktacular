@@ -12,6 +12,8 @@
 		F142D04627FACD2B0052E5CA /* SpotListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142D04527FACD2B0052E5CA /* SpotListViewController.swift */; };
 		F142D06827FAD5840052E5CA /* SpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142D06727FAD5840052E5CA /* SpotTableViewCell.swift */; };
 		F142D06A27FAD9890052E5CA /* SpotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142D06927FAD9890052E5CA /* SpotDetailViewController.swift */; };
+		F142D06C27FAEA940052E5CA /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142D06B27FAEA940052E5CA /* Spot.swift */; };
+		F142D06E27FAF9B30052E5CA /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142D06D27FAF9B30052E5CA /* UIViewController+alert.swift */; };
 		F16517B627FAA2FD003C43D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16517B527FAA2FD003C43D0 /* AppDelegate.swift */; };
 		F16517B827FAA2FD003C43D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16517B727FAA2FD003C43D0 /* SceneDelegate.swift */; };
 		F16517BA27FAA2FD003C43D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16517B927FAA2FD003C43D0 /* LoginViewController.swift */; };
@@ -28,6 +30,8 @@
 		F142D04527FACD2B0052E5CA /* SpotListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotListViewController.swift; sourceTree = "<group>"; };
 		F142D06727FAD5840052E5CA /* SpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTableViewCell.swift; sourceTree = "<group>"; };
 		F142D06927FAD9890052E5CA /* SpotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailViewController.swift; sourceTree = "<group>"; };
+		F142D06B27FAEA940052E5CA /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		F142D06D27FAF9B30052E5CA /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
 		F16517B227FAA2FD003C43D0 /* Snacktacular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacktacular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16517B527FAA2FD003C43D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F16517B727FAA2FD003C43D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,10 +94,12 @@
 			children = (
 				F16517B527FAA2FD003C43D0 /* AppDelegate.swift */,
 				F16517B727FAA2FD003C43D0 /* SceneDelegate.swift */,
+				F142D06B27FAEA940052E5CA /* Spot.swift */,
 				F16517B927FAA2FD003C43D0 /* LoginViewController.swift */,
 				F142D04527FACD2B0052E5CA /* SpotListViewController.swift */,
 				F142D06727FAD5840052E5CA /* SpotTableViewCell.swift */,
 				F142D06927FAD9890052E5CA /* SpotDetailViewController.swift */,
+				F142D06D27FAF9B30052E5CA /* UIViewController+alert.swift */,
 				F16517BB27FAA2FD003C43D0 /* Main.storyboard */,
 				F16517BE27FAA301003C43D0 /* Assets.xcassets */,
 				F16517C027FAA301003C43D0 /* LaunchScreen.storyboard */,
@@ -242,7 +248,9 @@
 				F16517B627FAA2FD003C43D0 /* AppDelegate.swift in Sources */,
 				F142D06A27FAD9890052E5CA /* SpotDetailViewController.swift in Sources */,
 				F142D06827FAD5840052E5CA /* SpotTableViewCell.swift in Sources */,
+				F142D06C27FAEA940052E5CA /* Spot.swift in Sources */,
 				F16517B827FAA2FD003C43D0 /* SceneDelegate.swift in Sources */,
+				F142D06E27FAF9B30052E5CA /* UIViewController+alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
