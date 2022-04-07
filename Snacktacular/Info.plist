@@ -36,5 +36,9 @@
 	<string>UIStatusBarStyleLightContent</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>The app will need the device location to determine the distance from a spot to the device location, and to user&apos;s location on the map</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The app will need the device location to determine the distance from a spot to the device location, and to user&apos;s location on the map</string>
 </dict>
 </plist>
